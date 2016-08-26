@@ -1,66 +1,327 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-	<title>Sublime - FreeCodeCamp : Build a Tribute Page</title>
-	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-	<style type="text/css" href="styles/bootstrap 3.3.5.min.css"></style>
-	<style>
-		body{
-			margin-top: 60px;
-		}
-	</style>
-	<script>
-		window.console = window.console|| function(t){};
-	</script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="web前端，F2E，web前端个人简历，前端开发" />
+    <meta name="description" content="余盼的web前端工程师个人简历">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>web前端工程师简历</title>
 </head>
-<body translate="no">
-   <div class="container">
-   <div class="jumbotron">
-      <div class="row">
-         <div class="col-xs-12">
-            <h1 class="text-center">中国羽球一哥--林丹</h1>
-         	<h2 class="text-center"><em>--LinDan who is the pride of China</em></h2>
-         	<div class="thumbnail"><image src="http://haiwai.people.com.cn/NMediaFile/2012/0806/LOCAL201208060920000097175339129.jpg">
-         	   <div class="caption text-center">羽毛球运动历史上第一位集奥运冠军、世锦赛冠军、世界杯冠军、亚运会冠军、亚锦赛冠军、全英赛冠军以及多座世界羽联超级系列赛冠军于一身的全满贯球员。世界羽毛球界四大天王之一。</div>
-         	</div>
-         	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-         		<h3>以下就是林丹的简介</h3>
-         		<ul>
-         		<li><strong>1983</strong> - 生于福建省龙岩市上杭县临江镇</li>
-         		<li><strong>1988</strong> - 林丹开始接触羽毛球</li>
-         		<li><strong>1992</strong> - 林丹进福建体校</li>
-         		<li><strong>1995</strong> - 林丹进入福州八一体工队</li>
-         		<li><strong>2000</strong> - 林丹进入国家队</li>
-         		<li><strong>2002</strong> - 登上国际羽联排名第一的位置</li>
-         		<li><strong>2005</strong> - 苏迪曼杯决赛中，第二场出场的林丹战胜了当时已是奥运冠军的陶菲克，赛后他行军礼致意也成为其标志性的动作之一</li>
-         		<li><strong>2008</strong> - 林丹获得北京奥运会羽毛球男子单打冠军。林丹由此成为羽毛球历史上首位赢得全英赛、世锦赛、世界杯和奥运金牌的球员</li>
-         		<li><strong>2010</strong> - 夺得广州亚运会男单冠军并成为第一位获得亚运会最有价值运动员的中国选手</li>
-         		<li><strong>2011</strong> - 林丹的蜡像入驻上海杜莎夫人蜡像馆，成为中国仅有的几位拥有个人蜡像的运动员之一</li>
-         		<li><strong>2012</strong> - 获得伦敦奥运会羽毛球男子单打金牌，卫冕成功。林丹成为首位在奥运会羽毛球男子单打项目中实现卫冕的运动员</li>
-         		<li><strong>2014</strong> - 获得仁川亚运会男子单打获得冠军</li>
-         		<li><strong>2016</strong> - 2016年全英公开赛男单决赛，林丹2比0轻取田厚威，第六次在全英公开赛登顶</li>
-         		</ul>
-         		<blockquote>
-         			<p>任何时候不要去怀疑自己，或是羡慕别人。做好自己，全力以赴地把握好每一天，不要太计较最终的结果。这个过程只是迟早和长短而已，最终都会有属于自己的天地和展现自己价值的一天。</p>
-         			<footer><cite>林丹 《直到世界尽头》</cite></footer>
-         		</blockquote>
-         		<h3>如果你想知道更多有关林丹的信息，你可以点击<a href="http://baike.baidu.com/link?url=ymDaAiXaCli3ZaQXz8WwwzyEiHvffXj97fBlEP8aR7utt4sykehHqOAMVRmQuqsJ0FBOKflmcsPpLncuIOawg-YUAyk8lREBs0MRLMxsNiC">这里</a></h3>
-         	</div>
-         </div>
- 	</div>
-   	</div>
-   	<footer class="text-center">
-   		<hr>
-   		<p>Written and coded by <a href="https://www.freecodecamp.com/Desperado0712" target="_blank">Desperado0712</a></p>
-   	</footer>
-   </div>
-
-   <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-
+<body>
+<!-- header navigation -->
+<header>
+    <div id="logo">
+        <div id="header_img"><img src="image/logo.jpg" alt="" /></div>
+        <div id="header_p">
+            <p id="header_p1">前端</p>
+            <p id="header_p2">个人简历</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">随笔</a></li>
+            <li><a href="">积淀</a></li>
+            <li><a href="">关于</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- header navigation end -->
+<!-- aside navigation -->
+<aside>
+        <a href="#page1"><b>首页</b></a>
+        <a href="#page2"><b>关于我</b></a>
+        <a href="#page3"><b>专业技能</b></a>
+        <a href="#page4"><b>我的作品</b></a>
+        <a href="#page5"><b>联系我</b></a>
+</aside>
+<!-- aside navigation end -->
+<!-- home page -->
+<div id="dowebok">
+    <!-- home -->
+    <div class="section one">
+        <div id="home">
+            <div id="home_content">
+                <div id="home_head">
+                    <div id="home_head_content">
+                        <img src="image/photo1.jpg" id="home_photo1" alt="" />
+                        <img src="image/photo2.jpg" id="home_photo2" alt="" />
+                    </div>
+                </div>
+                <div id="home_info">
+                    <p id="home_info1">如果今天的你还没有任何目标，那么明天的清晨，你用什么理由把自己叫醒呢？</p>
+                    <div id="home_info_box">
+                        <p id="home_info2">我叫余盼</p>
+                        <p id="home_info3">26岁</p>
+                        <p id="home_info4">一名自学前端研发的应届研究生</p>
+                        <p id="home_info5">yp32148@163.com</p>
+                    </div>
+                
+                <div id="motto">
+                    <q id="home_info6">既然选择了远方 便只顾风雨兼程</q>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home end -->
+    <!-- about -->
+    <div class="section two">
+        <div id="about">
+            <div id="about_content">
+                <div class="title">
+                    <h1>关于我</h1>
+                </div>
+                <div id="about_list_content">
+                    <div class="about_list" id="about_list1">
+                        <div class="about_list_eg" id="about_en_edu">education</div>
+                        <div class="about_list_cn" id="about_cn_edu">学历<p>研究生</p></div>
+                    </div>
+                    <div class="about_list">
+                        <div class="about_list_eg" id="about_en_age">age</div>
+                        <div class="about_list_cn" id="about_cn_age">年龄<p>26岁</p></div>
+                    </div>
+                    <div class="about_list">
+                        <div class="about_list_eg" id="about_en_loc">location</div>
+                        <div class="about_list_cn" id="about_cn_loc">坐标<p>武汉</p></div>
+                    </div>
+                    <div class="about_list">
+                        <div class="about_list_eg" id="about_en_sta">status</div>
+                        <div class="about_list_cn" id="about_cn_sta">状态<p>应届</p></div>
+                    </div>
+                </div>
+                <div id="about_info">
+                    <div id="about_info_box">
+                    <p id="about_info1">现就读于长江大学，资源与环境学院</p>
+                    <p id="about_info2">2016年3月开始自学前端开发</p>
+                    <p id="about_info3">兴趣指引着我继续学习 哪怕我不是最优秀的</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+    <!-- skill -->
+    <div class="section three">
+        <div id="skill">
+            <div id="skill_content">
+                <div class="title">
+                    <h1>专业技能</h1>
+                </div>
+                <div id="skill_info">
+                    <p>“计算机语言如同祭司手中的神仗，神仗换了，祭司还是祭司，世人还是会把头叩得山响。祭司掌握了与神交流的方法，而世人只看见了神仗。”  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--周爱民《JavaScript语言精髓与编程实践》</p>
+                </div>
+                <div id="skill_list">
+                    <div class="skill_list_content" id="skill_list1">
+                        <div class="skill_icon" id="skill_icon1"></div>
+                        <div class="skill_name">Git</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int1">
+                            <ul>
+                            <li>熟练使用git进行项目版本迭代</li>
+                            <li>熟练运用Github个人仓库</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list2">
+                        <div class="skill_icon" id="skill_icon2"></div>
+                        <div class="skill_name">HTML</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int2">
+                            <ul>
+                                <li>深刻理解Web标准</li>
+                                <li>熟练运用html标签</li>
+                                <li>熟悉xml及xhtml标记语言</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list3">
+                        <div class="skill_icon" id="skill_icon3"></div>
+                        <div class="skill_name">CSS</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int3">
+                            <ul>
+                                <li>精通HTML+CSS网页布局与样式</li>
+                                <li>了解并掌握Bootstrap基本用法</li>
+                                <li>熟练运用css及css3新属性</li>
+                                <li>了解野狗即时通信API</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list4">
+                        <div class="skill_icon" id="skill_icon4"></div>
+                        <div class="skill_name">JavaScript</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int4">
+                            <ul>
+                                <li>掌握原生JavaScript的编程</li>
+                                <li>熟悉基本语法及DOM操作</li>
+                                <li>熟练使用jQuery实现各种网页动态效果</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- skill end -->
+    <!-- demo -->
+    <div class="section four">
+        <div id="demo">
+            <div id="demo_content">
+                <div class="title">
+                    <h1>我的作品</h1>
+                </div>
+                <div id="demo_content_list">
+                    <ul class="demo_box">
+                        <li class="demo_scale">
+                            <div class="demo_box_content">
+                                <div class="demo_box_hover">
+                                    <p class="demo_box_title">国羽一哥--林丹</p>
+                                    <span class="demo_box_hover_icon">
+                                        <a href="demo/lindan.html" target="_blank" class="demo_box_link">
+                                            <img src="image/demo-link.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <img src="image/demo_box1.jpg" alt="" class="demo_box_bg"/>
+                            </div>
+                        </li>
+                        <li class="demo_scale">
+                            <div class="demo_box_content">
+                                <div class="demo_box_hover">
+                                    <p class="demo_box_title">武汉简介</p>
+                                    <span class="demo_box_hover_icon">
+                                        <a href="demo/wuhan.html" target="_blank" class="demo_box_link">
+                                            <img src="image/demo-link.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <img src="image/demo_box2.jpg" alt="" class="demo_box_bg"/>
+                            </div>
+                        </li>
+                        <li class="demo_scale">
+                            <div class="demo_box_content">
+                                <div class="demo_box_hover">
+                                    <p class="demo_box_title">弹幕墙</p>
+                                    <span class="demo_box_hover_icon">
+                                        <a href="demo/danmu.html" target="_blank" class="demo_box_link">
+                                            <img src="image/demo-link.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <img src="image/demo_box3.jpg" alt="" class="demo_box_bg"/>
+                            </div>
+                        </li>
+                        <li class="demo_scale">
+                            <div class="demo_box_content">
+                                <div class="demo_box_hover">
+                                    <p class="demo_box_title">正努力学习中！</p>
+                                    <span class="demo_box_hover_icon">
+                                        <a href="#" target="_blank" class="demo_box_link">
+                                            <img src="image/demo-link.png" alt="" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <img src="image/demo_box4.jpg" alt="" class="demo_box_bg"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div> 
+                <div id="demo_info" class="demo_scale">
+                    <p>更多demo请<a href="#" class="md-trigger" data-modal="modal-3">关注</a>我。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- demo end -->
+    <!-- contact -->
+    <div class="section five">
+        <div id="contact">
+            <div id="contact_content">
+                <div class="title">
+                    <h1>联系我</h1>
+                </div>
+                <div id="contact_head">
+                    <div id="contact_head1">学习 模仿 思考 创作</div>
+                    <div id="contact_head2">
+                        <span>learning</span>
+                        <span>imitation</span>
+                        <span>thinking</span>
+                        <span>creation</span>
+                    </div>
+                </div>
+                
+                <div id="contact_info" class="contact_scale">
+                    <ul>
+                    我梦想成为一名前端工程师!<br/>
+                    自学前端的确不免迷茫<br/>
+                    想学习更多有关前端，甚至后端的知识<br/>
+                    用代码 实现想法 创造价值<br/>
+                    </ul>
+                </div>
+                <div id="contact_way">
+                    <div id="contact_message1" class="contact_message contact_scale">Take me</div>
+                    <div id="contact_form">
+                        如果你也是同伴人，请联系我QQ：943832148<br/>
+                        互相学习交流，彼此成长O(∩_∩)O~<br/>
+                    </div>
+                    
+            </div>
+            <footer class="contact_scale">
+                <div class="contact_scale footer">
+                    <a href="http://codepen.io/Desperado0712" target="_blank">codepen</a>|
+                    <a href="https://www.freecodecamp.cn/desperado0712" target="_blank">freeCodeCamp</a>|
+                    <a href="https://github.com/Desperado0712" target="_blank">Github</a>
+                </div>
+                <div class="contact_scale footer">All Rights Reserved by <a href="http://www.flqin.com" target="_blank">the boy</a>&nbsp;</div>
+                <div class="contact_scale footer"><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备15021330号</a>&nbsp;Copyright &copy; 2015 - 2016</div>
+            </footer>
+        </div>
+    </div>
+    <!-- contact end -->
+</div>
+<!-- home page end -->
+<!-- pop layer -->
+<!--<div class="md-modal md-effect-11" id="modal-1">
+    <div class="md-content">
+        <h3>小黄人O(∩_∩)O~</h3>
+        <div>
+            <img src="image/Minions.jpg" alt="" />
+            <button class="md-close">明白了</button>
+        </div>
+    </div>
+</div>
+<div class="md-modal md-effect-13" id="modal-2">
+    <div class="md-content">
+        <h3>学习路线</h3>
+        <div class="modal-learn">
+            <p>学习用到的书籍</p>
+            <ul>
+                <li>《html5+css3基础教程（第七版）》</li>
+                <li>《css揭秘》</li>
+                <li>《JavaScript编程全解》</li>
+                <li>《》</li>
+                <li>《JavaScript高级程序设计（第三版）》</li>
+                <li>《锋利的jQuery（第二版）》</li>
+            </ul>
+            <button class="md-close">明白了</button>
+        </div>
+    </div>
+</div>
+<div class="md-overlay"></div>-->
+<!-- pop layer -->
 </body>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cssParser.js"></script>
+<script src="js/modalEffects.js"></script>
+<script src="js/index.js"></script>
 </html>
